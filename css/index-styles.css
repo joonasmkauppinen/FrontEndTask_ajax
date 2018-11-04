@@ -1,0 +1,38 @@
+#container {
+	max-width: 55em;
+	margin: 0 auto;
+}
+h1 {
+	text-align: center;
+	font-family: 'Open Sans', serif;
+	font-size: 5em;
+	color: rgb(10, 27, 63);
+}
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+a {
+	background-color: rgb(162, 48, 255);
+	color: white;
+	text-decoration: none;
+	margin: 10px;
+	padding: 20px 80px;
+	border-radius: 3px;
+	font-family: 'Rajdhani', serif;
+	font-size: 1.3em;
+	box-shadow: 0 2px 5px 0px #2f00745c;
+	transition:
+		background-color 100ms ease-in-out,
+		transform 100ms ease-in-out,
+		box-shadow 100ms ease-in-out;
+
+}
+
+a:hover {
+	background-color: rgb(233, 12, 122);
+ 	transform: translate(0, -5px);
+ 	box-shadow: 0 13px 22px -5px #9f009099;
+}
